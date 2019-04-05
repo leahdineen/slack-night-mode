@@ -4174,6 +4174,9 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .p-threads_view_root, .p-threads_view_reply, .p-threads_view__footer, .p_threads_view_load_older_button, .p_threads_view_load_newer_button, .p-threads_view__divider_line, .p-threads_view__divider_label {border-color: #828282; }
 .c-channel_name {color: #fff}
 
+/* thread sidebar */
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link { color: #e6e6e6}
+
 /* side bar */
 #details_tab .heading { background-color: #222; }
 #flex_contents .heading_text { color: #e6e6e6; }
