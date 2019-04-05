@@ -2,9 +2,7 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
-a:link, a:visited { color: #949494; }
-
-a:hover, a:active, a:focus { color: #c7c7c7; }
+a:link, a:visited, a:hover, a:active, a:focus { color: #22aae5; }
 
 hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
 
@@ -60,23 +58,15 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #col_channels { color: #e6e6e6; }
 
-.p-channel_sidebar { background-color: #363636; color: #e6e6e6; }
-
 .p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: rgba(230, 230, 230, 0.8) !important; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #e6e6e6; }
-
-.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #222 !important; }
 
 .p-channel_sidebar__header { color: #e6e6e6 !important; }
 
 .p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected::before { color: #e6e6e6; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #949494; }
-
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #545454 !important; }
-
-.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #545454 !important; }
 
 .p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #e6e6e6; }
 
@@ -729,22 +719,6 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .tab_complete_ui li.tab_complete_ui_item.active span, .tab_complete_ui li.tab_complete_ui_group.active span { color: #e6e6e6 !important; }
 
 .tab_complete_ui .not_in_channel { color: #949494; }
-
-#team_menu { background: #363636; border-bottom: 2px solid #363636; color: #e6e6e6; }
-
-#team_menu.active, #team_menu:hover { background: #363636 !important; border-bottom-color: #363636 !important; }
-
-#team_menu.active i, #team_menu:hover i { color: #e6e6e6; }
-
-#team_menu i { color: #949494; }
-
-#team_menu .presence .presence_icon { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
-
-#team_menu .team_name_caret, #team_menu .notifications_menu_btn { color: #e6e6e6 !important; }
-
-#team_menu_user { color: #949494; }
-
-#team_menu_user_name, #team_menu_user_details { color: #e6e6e6 !important; opacity: 0.75; }
 
 .slack_menu_section::before { border-top-color: #222; }
 
@@ -4198,6 +4172,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 /* all threads page */
 .c-virtual_list__item, .p-threads_view__default_background, .p_threads_view_load_older_button {background-color: #222; }
 .p-threads_view_root, .p-threads_view_reply, .p-threads_view__footer, .p_threads_view_load_older_button, .p_threads_view_load_newer_button, .p-threads_view__divider_line, .p-threads_view__divider_label {border-color: #828282; }
+.c-channel_name {color: #fff}
 
 /* side bar */
 #details_tab .heading { background-color: #222; }
@@ -4205,14 +4180,11 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .p-flexpane_header, .p-threads_flexpane__header { background-color: #222;}
 
 /* banners */
-.p-archives_banner { background-color: #1d9bd1; color: #fff;}
+.p-archives_banner, .p-message_pane__unread_banner__banner { background-color: #1d9bd1; color: #fff;}
 
 /* message inputs */
 #msg_form #msg_input, .p-threads_footer__input--legacy .p-message_input_field { background-color: #222; }
 #primary_file_button, .p-threads_footer__input--legacy .p-message_input_file_button { background-color: #222; }
-
-/* channel header */
-.channel_header, #channel_topic_text { background-color: #111; !important}
 
 /* emoji hover */
 .c-message:hover { background-color: #111 }
